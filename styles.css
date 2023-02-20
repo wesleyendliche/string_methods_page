@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Roboto+Slab&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(10, 102, 102);
+    width: 100%;
+    height: 90px;
+}
+
+header h1 {
+    text-align: center;
+    padding-top: 12px;
+    font-size: 48px;
+    font-family: 'Paytone One', sans-serif;
+    color: rgb(221, 221, 221);
+}
+
+main {
+    font-family: 'Roboto Slab', serif;
+}
+
+main h2 {
+    font-size: 24px;
+}
+
+li {
+    font-size: 20px;
+    list-style: url('/fast-forward.png');
+}
+

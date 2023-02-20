@@ -16,19 +16,36 @@ header h1 {
     padding-top: 12px;
     font-size: 48px;
     font-family: 'Paytone One', sans-serif;
-    color: rgb(221, 221, 221);
+    color: rgb(243, 243, 243);
 }
 
 main {
     font-family: 'Roboto Slab', serif;
+    background-color: rgb(243, 243, 243);
+    color: rgb(0, 0, 0);
+    height: 100vh;
+    padding: 0 50px;
 }
 
 main h2 {
     font-size: 24px;
+    padding: 15px 0;
 }
 
 li {
-    font-size: 20px;
-    list-style: url('/fast-forward.png');
+    font-size: 18px;
+    list-style: square;
+}
+
+#concat {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: nowrap;
+}
+
+#concat-result {
+    padding-top: 15px;
+    font-style: italic;
 }
 

@@ -14,7 +14,8 @@
    <main>
     <h2>Type your word or sentence here:</h2>
     <form>
-        <input type="text" name="textbox" id="textbox" placeholder="Type here">
+        <label for="textbox">Play with a word or sentence: </label>
+        <input type="text" name="textbox" id="textbox">
         <input type="button" value="Check it" id="submit">  
     </form>
 
@@ -26,6 +27,30 @@
         <li>Split sentence: <span id="splitSentence"></span></li>
         <li>To Upper Case: <span id="toUpperCase"></span></li>
         <li>To Lower Case: <span id="toLowerCase"></span></li>
+    </ul>
+
+    <h2>Write two things:</h2>
+    <form id="concat">
+        <label for="concat-1, concat-2">Words to  combine:</label>
+        <input type="text" name="concat-1" id="concat-1">
+        <p>+</p>
+        <input type="text" name="concat-2" id="concat-2">
+        <input type="button" value="Concatenate" id="concatenate">
+    </form>
+    <div id="concat-result">(Result)</div>
+
+    <h2>Come up with variations of movies' names:</h2>
+    <form id="replace-field">
+        <label for="newWord">New last word: </label>
+        <input type="text" name="newWord" id="newWord">
+        <input type="button" value="Change name" id="change-name">
+    </form>
+    <ul id="movie-list">
+        <li>The Lord of the <span class="last-word">Rings</span></li>
+        <li>Harry Potter and the Chamber of <span class="last-word">Secrets</span></li>
+        <li>Avengers: Civil <span class="last-word">War</span></li>
+        <li>John Wick: <span class="last-word">Parabellum</span></li>
+        <li>Pirates of the <span class="last-word">Caribbean</span></li>
     </ul>
    </main>
 
